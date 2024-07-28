@@ -1,0 +1,286 @@
+@media (min-width: 481px) {
+    :root {
+        --h1-font-size: 1.8rem;
+        --h4-font-size: 1.6rem;
+        --h3-font-size: 1.5rem;
+        --h6-font-size: 1rem;
+        --normal-font-size: .938rem;
+    
+    }
+    body{
+        font-size: var(--normal-font-size);
+    }
+    .container{
+        max-width: 481px;
+    }
+    .portfolio-filter {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .portfolio-filter button{
+        font-size: 0.75rem;
+    }
+    .contact-text{
+        width: 21rem;
+    }
+    .wrapper{
+        max-width: 400px;
+    }
+    h1{
+        font-size: var(--h1-font-size);
+    }
+    h3{
+        font-size: var(--h3-font-size);
+    }
+    h4{
+        font-size: var(--h4-font-size);
+    }
+    h6{
+        font-size: var(--h6-font-size);
+    }
+}
+
+@media (min-width: 600px) {
+
+    .container{
+        max-width: 600px;
+    }
+
+    :root {
+        --h1-font-size: 1.8rem;
+        --h4-font-size: 1.6rem;
+        --h3-font-size: 1.5rem;
+        --h6-font-size: 1.2rem;
+        --normal-font-size: 0.875rem;
+    }
+    body{
+        font-size: var(--normal-font-size);
+    }
+
+    h1{
+        font-size: var(--h1-font-size);
+    }
+    h3{
+        font-size: var(--h3-font-size);
+    }
+    h4{
+        font-size: var(--h4-font-size);
+    }
+    h6{
+        font-size: var(--h6-font-size);
+    }
+    .hero-img img{
+        max-width: 30rem;
+    }
+
+    .details-groups li{
+        justify-content: space-between;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: var(--margin-medium);
+    }
+    .portfolio-filter {
+    justify-content: space-between;
+    width: 100%;
+    }
+    .portfolio-filter button{
+        font-size: var(--normal-font-size);
+        padding: 0.4rem 0.7rem;
+    }
+    .experience-education{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: var(--margin-medium);
+    }
+
+    .experience .shade {
+        padding-bottom: 0;
+      }
+      .education .shade-2{
+        padding: 0;
+      }
+      .box{
+        min-height: 19.5rem;
+      }
+      .row.service-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+}
+
+@media (min-width: 768px) {
+
+    :root{
+        --h1-font-size: 1.625rem;
+        --h4-font-size: 1.25rem;
+        --h3-font-size: 1.438rem;
+        --h6-font-size: 1.2rem;
+        --normal-font-size: 1rem;
+    
+        --padd-top-sec: 5rem;
+    
+        --margin-small: 0.5rem;
+        --margin-medium: 1rem;
+        --margin-large: 2rem;
+        --margin-xlarge: 4rem;
+    
+        --padding-small: 0.5rem;
+        --padding-medium: 1rem;
+        --padding-large: 2rem;
+        --padding-xlarge: 4rem;
+    
+    }
+    body{
+        font-size: var(--normal-font-size);
+    }
+
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    :root {
+        --h1-font-size: 1.8rem;
+        --h4-font-size: 1.6rem;
+        --h3-font-size: 1.5rem;
+        --h6-font-size: 1rem;
+        --normal-font-size: .938rem;
+
+            
+        --padd-top-sec: 5rem;
+    
+        --margin-small: 0.5rem;
+        --margin-medium: 1rem;
+        --margin-large: 2rem;
+        --margin-xlarge: 4rem;
+    
+        --padding-small: 0.5rem;
+        --padding-medium: 1rem;
+        --padding-large: 2rem;
+        --padding-xlarge: 4rem;
+    
+
+    
+    }
+    .container {
+        max-width: 1024px;
+    }
+    body{
+        font-size: var(--normal-font-size);
+    }
+
+    h1{
+        font-size: var(--h1-font-size);
+        text-align: left;
+    }
+    h3{
+        font-size: var(--h3-font-size);
+    }
+    h4{
+        font-size: var(--h4-font-size);
+       
+    }
+    h6{
+        font-size: var(--h6-font-size);
+    }
+    .hero-img img{
+        max-width: 30rem;
+    }
+    .row.arrow-position{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+       column-gap: 3rem;
+    }
+    .hero-content{
+        text-align: left;
+    }
+    .buttons-prime{
+        display: flex;
+        align-items: center;
+        
+    }
+    .secondary-buttons{
+        padding-top: 0;
+        padding-left: var(--padding-medium);
+    }
+    .about-title{
+        width: 43.75rem;
+    }
+    .portfolio-filter{
+        width: 75%;
+    }
+    .grid-2,
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .education .shade-2,
+    .experience .shade{
+        padding-bottom: var(--padding-small);
+    }
+
+}
+
+@media (min-width: 1200px){
+    :root {
+        --h1-font-size: 1.8rem;
+        --h4-font-size: 1.6rem;
+        --h3-font-size: 1.5rem;
+        --h6-font-size: 1rem;
+        --normal-font-size: .938rem;
+
+            
+        --padd-top-sec: 5rem;
+    
+        --margin-small: 0.5rem;
+        --margin-medium: 1rem;
+        --margin-large: 2rem;
+        --margin-xlarge: 4rem;
+    
+        --padding-small: 0.5rem;
+        --padding-medium: 1rem;
+        --padding-large: 2rem;
+        --padding-xlarge: 4rem;
+    
+
+    
+    }
+    .container {
+        max-width: 1200px;
+    }
+    body{
+        font-size: var(--normal-font-size);
+    }
+
+    h1{
+        font-size: var(--h1-font-size);
+        text-align: left;
+    }
+    h3{
+        font-size: var(--h3-font-size);
+    }
+    h4{
+        font-size: var(--h4-font-size);
+       
+    }
+    h6{
+        font-size: var(--h6-font-size);
+    }
+    .hero-img img{
+        max-width: 35rem;
+    }
+    .grid-2,
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .row.service-grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+      }
+
+
+
+
+}
